@@ -2641,86 +2641,57 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="U4" library="HEXABITZ_ICs" library_urn="urn:adsk.eagle:library:20064554" deviceset="TESEO-LIV3F" device="" package3d_urn="urn:adsk.eagle:package:27231891/1"/>
 <part name="D2" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="ESDARF02-1BU2CK" device="" package3d_urn="urn:adsk.eagle:package:27264001/2"/>
 <part name="C12" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0402" device="" package3d_urn="urn:adsk.eagle:package:19666459/2" value="56pF">
-<attribute name="CAPACITANCE" value="56pF
-"/>
-<attribute name="MFN" value="Murata
-"/>
-<attribute name="MPN" value="GRM1555C1H560JA01D
-"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/grm1555c1h560ja01d-murata-15197568?r=sp
-"/>
+<attribute name="CAPACITANCE" value="56pF "/>
+<attribute name="MFN" value="Murata "/>
+<attribute name="MPN" value="GRM1555C1H560JA01D "/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/grm1555c1h560ja01d-murata-15197568?r=sp "/>
 </part>
 <part name="FB2" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="FB-0402" device="" package3d_urn="urn:adsk.eagle:package:27264799/1" value="56nH">
-<attribute name="MFN" value="Murata
-"/>
-<attribute name="MPN" value="LQW15AN6N8G00D
-"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/lqw15an6n8g00d-murata-7896134?r=sp
-"/>
+<attribute name="MFN" value="Murata "/>
+<attribute name="MPN" value="LQW15AN6N8G00D "/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/lqw15an6n8g00d-murata-7896134?r=sp "/>
 </part>
 <part name="C13" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0402" device="" package3d_urn="urn:adsk.eagle:package:19666459/2" value="120pF">
-<attribute name="CAPACITANCE" value="120pF
-"/>
-<attribute name="MFN" value="Murata
-"/>
-<attribute name="MPN" value="GRM1555C1H121JA01D
-"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/grm1555c1h121ja01d-murata-196010?r=sp
-"/>
+<attribute name="CAPACITANCE" value="120pF "/>
+<attribute name="MFN" value="Murata "/>
+<attribute name="MPN" value="GRM1555C1H121JA01D "/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/grm1555c1h121ja01d-murata-196010?r=sp "/>
 </part>
 <part name="C14" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0402" device="" package3d_urn="urn:adsk.eagle:package:19666459/2" value="3.9pF">
-<attribute name="CAPACITANCE" value="3.9pF
-"/>
-<attribute name="MFN" value="Murata
-"/>
-<attribute name="MPN" value="GRM1555C1H3R9WA01D
-"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/grm1555c1h3r9wa01d-murata-20477997?r=sp
-"/>
+<attribute name="CAPACITANCE" value="3.9pF "/>
+<attribute name="MFN" value="Murata "/>
+<attribute name="MPN" value="GRM1555C1H3R9WA01D "/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/grm1555c1h3r9wa01d-murata-20477997?r=sp "/>
 </part>
 <part name="FB3" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="FB-0402" device="" package3d_urn="urn:adsk.eagle:package:27264799/1" value="6.8nH">
-<attribute name="MFN" value="Würth Elektronik
-"/>
-<attribute name="MPN" value="744784156A
-"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/744784156a-w%C3%BCrth+elektronik-46756303?r=sp
-"/>
+<attribute name="MFN" value="Würth Elektronik "/>
+<attribute name="MPN" value="744784156A "/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/744784156a-w%C3%BCrth+elektronik-46756303?r=sp "/>
 </part>
 <part name="U3" library="HEXABITZ_ICs" library_urn="urn:adsk.eagle:library:20064554" deviceset="BGA824N6" device="" package3d_urn="urn:adsk.eagle:package:27266193/1"/>
 <part name="R4" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0402" device="" package3d_urn="urn:adsk.eagle:package:19666455/2" value="0.0R"/>
 <part name="R5" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0402" device="" package3d_urn="urn:adsk.eagle:package:19666455/2" value="10.0k">
 <attribute name="MFN" value="TE Connectivity"/>
 <attribute name="MPN" value="CRGCQ0402F10K"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/crgcq0402f10k-te+connectivity-91017932?r=sp
-"/>
-<attribute name="RESISTANCE" value="10.0K
-"/>
-<attribute name="TOLERANCE" value="±1%
-"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/crgcq0402f10k-te+connectivity-91017932?r=sp "/>
+<attribute name="RESISTANCE" value="10.0K "/>
+<attribute name="TOLERANCE" value="±1% "/>
 </part>
 <part name="U5" library="HEXABITZ_ICs" library_urn="urn:adsk.eagle:library:20064554" deviceset="B39162B4327P810" device="" package3d_urn="urn:adsk.eagle:package:27266304/1"/>
 <part name="C15" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0402" device="" package3d_urn="urn:adsk.eagle:package:19666459/2" value="120pF">
-<attribute name="CAPACITANCE" value="120pF
-"/>
-<attribute name="MFN" value="Murata
-"/>
-<attribute name="MPN" value="GRM1555C1H121JA01D
-"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/grm1555c1h121ja01d-murata-196010?r=sp
-"/>
+<attribute name="CAPACITANCE" value="120pF "/>
+<attribute name="MFN" value="Murata "/>
+<attribute name="MPN" value="GRM1555C1H121JA01D "/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/grm1555c1h121ja01d-murata-196010?r=sp "/>
 </part>
 <part name="R6" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0402" device="" package3d_urn="urn:adsk.eagle:package:19666455/2" value="DNP"/>
 <part name="R7" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0402" device="" package3d_urn="urn:adsk.eagle:package:19666455/2" value="DNP"/>
 <part name="R8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0402" device="" package3d_urn="urn:adsk.eagle:package:19666455/2" value="0.0R"/>
 <part name="C16" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0402" device="" package3d_urn="urn:adsk.eagle:package:19666459/2" value="1nF">
-<attribute name="CAPACITANCE" value="1nF
-"/>
-<attribute name="MFN" value="Murata
-"/>
-<attribute name="MPN" value="GRM155R71H102KA01D
-"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/grm155r71h102ka01d-murata-196021?r=sp
-"/>
+<attribute name="CAPACITANCE" value="1nF "/>
+<attribute name="MFN" value="Murata "/>
+<attribute name="MPN" value="GRM155R71H102KA01D "/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/grm155r71h102ka01d-murata-196021?r=sp "/>
 </part>
 <part name="U2" library="HEXABITZ_ICs" library_urn="urn:adsk.eagle:library:20064554" deviceset="TPS22943DCKR" device="" package3d_urn="urn:adsk.eagle:package:27232826/2"/>
 <part name="R9" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0402" device="" package3d_urn="urn:adsk.eagle:package:19666455/2" value="DNP"/>
@@ -2763,35 +2734,23 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="OCTOPART_URL" value="https://octopart.com/grm0335c1e560ga01d-murata-24611383?r=sp"/>
 </part>
 <part name="FB4" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="FB-0402" device="" package3d_urn="urn:adsk.eagle:package:27264799/1" value="27nH">
-<attribute name="MFN" value="Murata
-"/>
-<attribute name="MPN" value="LQG15HS27NJ02D
-"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/lqg15hs27nj02d-murata-387555?r=sp
-"/>
+<attribute name="MFN" value="Murata "/>
+<attribute name="MPN" value="LQG15HS27NJ02D "/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/lqg15hs27nj02d-murata-387555?r=sp "/>
 </part>
 <part name="C11" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0402" device="" package3d_urn="urn:adsk.eagle:package:19666459/2" value="10nF">
-<attribute name="CAPACITANCE" value="10nF
-"/>
-<attribute name="MFN" value="TDK
-"/>
-<attribute name="MPN" value="CGA2B3X7R1H103K050BE
-"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/cga2b3x7r1h103k050be-tdk-68305469?r=sp
-"/>
+<attribute name="CAPACITANCE" value="10nF "/>
+<attribute name="MFN" value="TDK "/>
+<attribute name="MPN" value="CGA2B3X7R1H103K050BE "/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/cga2b3x7r1h103k050be-tdk-68305469?r=sp "/>
 </part>
 <part name="R13" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0402" device="" package3d_urn="urn:adsk.eagle:package:19666455/2" value="DNP"/>
 <part name="R14" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/5" value="100k">
-<attribute name="MFN" value="Yageo
-"/>
-<attribute name="MPN" value="AC0603FR-07100KL
-"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/ac0603fr-07100kl-yageo-21711090?r=sp
-"/>
-<attribute name="RESISTANCE" value="100k
-"/>
-<attribute name="TOLERANCE" value="±1%
-"/>
+<attribute name="MFN" value="Yageo "/>
+<attribute name="MPN" value="AC0603FR-07100KL "/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/ac0603fr-07100kl-yageo-21711090?r=sp "/>
+<attribute name="RESISTANCE" value="100k "/>
+<attribute name="TOLERANCE" value="±1% "/>
 </part>
 <part name="P1" library="hexabitz_connectors" deviceset="HEXABIT_?_X2_NO_P5" device="17.32"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
