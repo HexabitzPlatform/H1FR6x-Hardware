@@ -1824,81 +1824,6 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="HEXABITZ_CONNECTION_PARTS" urn="urn:adsk.eagle:library:20064553">
-<packages>
-<package name="0734120110" urn="urn:adsk.eagle:footprint:19666379/1" library_version="18">
-<smd name="1" x="0" y="-1.5" dx="1" dy="1" layer="1" rot="R90"/>
-<smd name="2" x="-1.475" y="0" dx="2.2" dy="1.05" layer="1" rot="R90"/>
-<smd name="3" x="1.475" y="0" dx="2.2" dy="1.05" layer="1" rot="R90"/>
-<smd name="4" x="0" y="1.5" dx="1" dy="1" layer="1" rot="R90"/>
-<wire x1="-0.7" y1="1.7" x2="-1.6" y2="1.7" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="1.7" x2="-1.6" y2="1.3" width="0.127" layer="21"/>
-<wire x1="0.7" y1="-1.7" x2="1.6" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="1.6" y1="-1.7" x2="1.6" y2="-1.3" width="0.127" layer="21"/>
-<wire x1="0.7" y1="1.7" x2="1.6" y2="1.7" width="0.127" layer="21"/>
-<wire x1="1.6" y1="1.7" x2="1.6" y2="1.3" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.3" x2="-1.2" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-1.2" y1="-1.7" x2="-0.7" y2="-1.7" width="0.127" layer="21"/>
-<text x="2.45" y="2.1" size="1.016" layer="25">&gt;NAME</text>
-<text x="2.45" y="0.69" size="1.016" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="0734120110" urn="urn:adsk.eagle:package:19666477/2" type="model" library_version="18">
-<packageinstances>
-<packageinstance name="0734120110"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="0734120110" urn="urn:adsk.eagle:symbol:20049867/1" library_version="18">
-<circle x="0" y="0" radius="3.5921" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="2.99891875" width="0.254" layer="94"/>
-<circle x="0.0254" y="0" radius="0.127" width="0.254" layer="94"/>
-<circle x="0.0254" y="0" radius="0.46628125" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="4.826" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="-4.953" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-4.953" x2="4.953" y2="-4.953" width="0.254" layer="94"/>
-<wire x1="4.953" y1="-4.953" x2="4.953" y2="4.826" width="0.254" layer="94"/>
-<wire x1="4.953" y1="4.826" x2="-5.08" y2="4.826" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<pin name="1" x="-7.62" y="0" visible="pad" length="short"/>
-<pin name="2" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
-<pin name="3" x="2.54" y="-7.62" visible="pad" length="short" rot="R90"/>
-<pin name="4" x="7.62" y="-2.54" visible="pad" length="short" rot="R180"/>
-<text x="-5.08" y="7.62" size="1.27" layer="95">&gt;NAME</text>
-<text x="-5.08" y="5.08" size="1.27" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="0734120110" urn="urn:adsk.eagle:component:20049886/2" prefix="P" uservalue="yes" library_version="18">
-<description>Microcoaxial RF, 50 Ohm, PCB Vertical Jack Receptacle, SMT, 1.25mm (.049"") Mounted Height</description>
-<gates>
-<gate name="G$1" symbol="0734120110" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0734120110">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19666477/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MFN" value="Molex" constant="no"/>
-<attribute name="MPN" value="0734120110" constant="no"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/0734120110-molex-16756629?r=sp&amp;s=MrVch9BMTneaw8n1KM-Tpw" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="hexabitz_connectors">
 <packages>
 <package name="HEXABIT_17.32_X2_NO_P5">
@@ -2528,6 +2453,245 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="HEXABITZ_CONNECTION_PARTS" urn="urn:adsk.eagle:library:20064553">
+<packages>
+<package name="MOLEX_INC_0732511150_0" urn="urn:adsk.eagle:footprint:27877898/1" library_version="19">
+<description>RF/COAXIAL SMA JACK STR 50OHM EDGE MOUNT</description>
+<polygon width="0" layer="29">
+<vertex x="2.389" y="5.59"/>
+<vertex x="2.389" y="4.89"/>
+<vertex x="3.099" y="4.89"/>
+<vertex x="3.099" y="3.43"/>
+<vertex x="2.389" y="3.43"/>
+<vertex x="2.389" y="3.175"/>
+<vertex x="8.229" y="3.175"/>
+<vertex x="8.229" y="5.59"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="2.389" y="5.59"/>
+<vertex x="2.389" y="4.89"/>
+<vertex x="3.099" y="4.89"/>
+<vertex x="3.099" y="3.43"/>
+<vertex x="2.389" y="3.43"/>
+<vertex x="2.389" y="3.175"/>
+<vertex x="8.229" y="3.175"/>
+<vertex x="8.229" y="5.59"/>
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="2.389" y="5.59"/>
+<vertex x="2.389" y="4.89"/>
+<vertex x="3.099" y="4.89"/>
+<vertex x="3.099" y="3.43"/>
+<vertex x="2.389" y="3.43"/>
+<vertex x="2.389" y="3.175"/>
+<vertex x="8.229" y="3.175"/>
+<vertex x="8.229" y="5.59"/>
+</polygon>
+<polygon width="0" layer="16">
+<vertex x="2.389" y="5.59"/>
+<vertex x="2.389" y="4.89"/>
+<vertex x="3.099" y="4.89"/>
+<vertex x="3.099" y="3.43"/>
+<vertex x="2.389" y="3.43"/>
+<vertex x="2.389" y="3.175"/>
+<vertex x="8.229" y="3.175"/>
+<vertex x="8.229" y="5.59"/>
+</polygon>
+<polygon width="0" layer="32">
+<vertex x="2.389" y="5.59"/>
+<vertex x="2.389" y="4.89"/>
+<vertex x="3.099" y="4.89"/>
+<vertex x="3.099" y="3.43"/>
+<vertex x="2.389" y="3.43"/>
+<vertex x="2.389" y="3.175"/>
+<vertex x="8.229" y="3.175"/>
+<vertex x="8.229" y="5.59"/>
+</polygon>
+<polygon width="0" layer="30">
+<vertex x="2.389" y="5.59"/>
+<vertex x="2.389" y="4.89"/>
+<vertex x="3.099" y="4.89"/>
+<vertex x="3.099" y="3.43"/>
+<vertex x="2.389" y="3.43"/>
+<vertex x="2.389" y="3.175"/>
+<vertex x="8.229" y="3.175"/>
+<vertex x="8.229" y="5.59"/>
+</polygon>
+<polygon width="0" layer="16">
+<vertex x="2.389" y="-5.59"/>
+<vertex x="8.229" y="-5.59"/>
+<vertex x="8.229" y="-3.175"/>
+<vertex x="2.389" y="-3.175"/>
+<vertex x="2.389" y="-3.43"/>
+<vertex x="3.099" y="-3.43"/>
+<vertex x="3.099" y="-4.89"/>
+<vertex x="2.389" y="-4.89"/>
+</polygon>
+<polygon width="0" layer="32">
+<vertex x="2.389" y="-5.59"/>
+<vertex x="8.229" y="-5.59"/>
+<vertex x="8.229" y="-3.175"/>
+<vertex x="2.389" y="-3.175"/>
+<vertex x="2.389" y="-3.43"/>
+<vertex x="3.099" y="-3.43"/>
+<vertex x="3.099" y="-4.89"/>
+<vertex x="2.389" y="-4.89"/>
+</polygon>
+<polygon width="0" layer="30">
+<vertex x="2.389" y="-5.59"/>
+<vertex x="8.229" y="-5.59"/>
+<vertex x="8.229" y="-3.175"/>
+<vertex x="2.389" y="-3.175"/>
+<vertex x="2.389" y="-3.43"/>
+<vertex x="3.099" y="-3.43"/>
+<vertex x="3.099" y="-4.89"/>
+<vertex x="2.389" y="-4.89"/>
+</polygon>
+<polygon width="0" layer="29">
+<vertex x="2.389" y="-5.59"/>
+<vertex x="8.229" y="-5.59"/>
+<vertex x="8.229" y="-3.175"/>
+<vertex x="2.389" y="-3.175"/>
+<vertex x="2.389" y="-3.43"/>
+<vertex x="3.099" y="-3.43"/>
+<vertex x="3.099" y="-4.89"/>
+<vertex x="2.389" y="-4.89"/>
+</polygon>
+<polygon width="0" layer="31">
+<vertex x="2.389" y="-5.59"/>
+<vertex x="8.229" y="-5.59"/>
+<vertex x="8.229" y="-3.175"/>
+<vertex x="2.389" y="-3.175"/>
+<vertex x="2.389" y="-3.43"/>
+<vertex x="3.099" y="-3.43"/>
+<vertex x="3.099" y="-4.89"/>
+<vertex x="2.389" y="-4.89"/>
+</polygon>
+<polygon width="0" layer="1">
+<vertex x="2.389" y="-5.59"/>
+<vertex x="8.229" y="-5.59"/>
+<vertex x="8.229" y="-3.175"/>
+<vertex x="2.389" y="-3.175"/>
+<vertex x="2.389" y="-3.43"/>
+<vertex x="3.099" y="-3.43"/>
+<vertex x="3.099" y="-4.89"/>
+<vertex x="2.389" y="-4.89"/>
+</polygon>
+<wire x1="-7.302" y1="-4.864" x2="-7.302" y2="4.864" width="0.15" layer="51"/>
+<wire x1="-7.302" y1="4.864" x2="7.302" y2="4.864" width="0.15" layer="51"/>
+<wire x1="7.302" y1="4.864" x2="7.302" y2="-4.864" width="0.15" layer="51"/>
+<wire x1="7.302" y1="-4.864" x2="-7.302" y2="-4.864" width="0.15" layer="51"/>
+<wire x1="2.388" y1="5.69" x2="2.388" y2="-5.69" width="0.15" layer="51"/>
+<wire x1="7.302" y1="-2.8" x2="7.302" y2="-1.52" width="0.15" layer="21"/>
+<wire x1="7.302" y1="1.52" x2="7.302" y2="2.8" width="0.15" layer="21"/>
+<wire x1="-7.402" y1="-5.69" x2="-7.402" y2="5.69" width="0.1" layer="41"/>
+<wire x1="-7.402" y1="5.69" x2="8.329" y2="5.69" width="0.1" layer="41"/>
+<wire x1="8.329" y1="5.69" x2="8.329" y2="-5.69" width="0.1" layer="41"/>
+<wire x1="8.329" y1="-5.69" x2="-7.402" y2="-5.69" width="0.1" layer="41"/>
+<text x="2.637" y="6.229" size="1" layer="25">&gt;NAME</text>
+<circle x="8.779" y="0" radius="0.25" width="0" layer="21"/>
+<smd name="2" x="5.309" y="4.382" dx="2.173" dy="2.173" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="4" x="5.309" y="4.382" dx="2.173" dy="2.173" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="5" x="5.309" y="-4.382" dx="2.173" dy="2.173" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="3" x="5.309" y="-4.382" dx="2.173" dy="2.173" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="1" x="5.309" y="0" dx="5.84" dy="2.29" layer="1"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="MOLEX_INC_0732511150_0" urn="urn:adsk.eagle:package:27877899/1" type="box" library_version="19">
+<description>RF/COAXIAL SMA JACK STR 50OHM EDGE MOUNT</description>
+<packageinstances>
+<packageinstance name="MOLEX_INC_0732511150_0"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MOLEX_INC_0732511150_0_0" urn="urn:adsk.eagle:symbol:27877897/1" library_version="19">
+<description>RF/COAXIAL SMA JACK STR 50OHM EDGE MOUNT</description>
+<wire x1="2.54" y1="-35.56" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-35.56" x2="2.54" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="9.652" y1="-10.16" x2="15.24" y2="-10.16" width="0.508" layer="94"/>
+<wire x1="9.652" y1="-17.78" x2="15.24" y2="-17.78" width="0.508" layer="94"/>
+<wire x1="9.652" y1="-22.86" x2="15.24" y2="-22.86" width="0.508" layer="94"/>
+<wire x1="9.652" y1="-27.94" x2="15.24" y2="-27.94" width="0.508" layer="94"/>
+<wire x1="9.652" y1="-33.02" x2="15.24" y2="-33.02" width="0.508" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.15" layer="94"/>
+<wire x1="15.24" y1="-17.78" x2="15.24" y2="-17.78" width="0.15" layer="94"/>
+<wire x1="15.24" y1="-22.86" x2="15.24" y2="-22.86" width="0.15" layer="94"/>
+<wire x1="15.24" y1="-27.94" x2="15.24" y2="-27.94" width="0.15" layer="94"/>
+<wire x1="15.24" y1="-33.02" x2="15.24" y2="-33.02" width="0.15" layer="94"/>
+<text x="2.54" y="-2.54" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="2.54" y="-38.1" size="2.54" layer="95" align="top-left">0732511150</text>
+<pin name="1" x="20.32" y="-10.16" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="MNT_1" x="20.32" y="-17.78" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="MNT_2" x="20.32" y="-22.86" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="MNT_3" x="20.32" y="-27.94" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="MNT_4" x="20.32" y="-33.02" visible="pad" length="middle" direction="pas" rot="R180"/>
+<circle x="8.89" y="-10.16" radius="0.762" width="0.254" layer="94"/>
+<circle x="8.89" y="-17.78" radius="0.762" width="0.254" layer="94"/>
+<circle x="8.89" y="-22.86" radius="0.762" width="0.254" layer="94"/>
+<circle x="8.89" y="-27.94" radius="0.762" width="0.254" layer="94"/>
+<circle x="8.89" y="-33.02" radius="0.762" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOLEX_INC_0732511150" urn="urn:adsk.eagle:component:27877900/1" prefix="J" library_version="19">
+<description>RF/COAXIAL SMA JACK STR 50OHM EDGE MOUNT</description>
+<gates>
+<gate name="G$0" symbol="MOLEX_INC_0732511150_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MOLEX_INC_0732511150_0_0" package="MOLEX_INC_0732511150_0">
+<connects>
+<connect gate="G$0" pin="1" pad="1"/>
+<connect gate="G$0" pin="MNT_1" pad="2"/>
+<connect gate="G$0" pin="MNT_2" pad="3"/>
+<connect gate="G$0" pin="MNT_3" pad="4"/>
+<connect gate="G$0" pin="MNT_4" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27877899/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT_MATERIAL" value="Gold,Nickel"/>
+<attribute name="DATASHEET" value="https://www.molex.com/webdocs/datasheets/pdf/en-us/0732511150_RF_COAX_CONNECTORS.pdf"/>
+<attribute name="DEVICE_CLASS_L1" value="Connectors"/>
+<attribute name="DEVICE_CLASS_L2" value="RF / Coaxial Connectors"/>
+<attribute name="DEVICE_CLASS_L3" value="unset"/>
+<attribute name="DIELECTRIC_MATERIAL" value="PTFE"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="CONN SMA RCPT STR 50OHM EDGE MNT"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="WM5534-ND"/>
+<attribute name="FOOTPRINT_URL" value="https://www.molex.com/pdm_docs/sd/732511150_sd.pdf"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Recommended_Land_Pattern"/>
+<attribute name="FREQUENCY" value="18GHz"/>
+<attribute name="IMPEDANCE" value="50Ω"/>
+<attribute name="IS_FEMALE" value="yes"/>
+<attribute name="LEAD_FREE" value="Yes"/>
+<attribute name="MF" value="Molex Inc"/>
+<attribute name="MFG_PACKAGE_IDENT" value="0"/>
+<attribute name="MFG_PACKAGE_IDENT_DATE" value="0"/>
+<attribute name="MFG_PACKAGE_IDENT_REV" value="0"/>
+<attribute name="MOUSER_DESCRIPTION" value="RF Connectors / Coaxial Connectors SMA ST PCB-JCK STD EMT"/>
+<attribute name="MPN" value="0732511150"/>
+<attribute name="NUMBER_OF_CONTACTS" value="1"/>
+<attribute name="PACKAGE" value="CONN_RF_JACK"/>
+<attribute name="PREFIX" value="J"/>
+<attribute name="ROHS" value="Yes"/>
+<attribute name="SHIELDING" value="true"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+165°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-65°C"/>
+<attribute name="VERIFICATION_VERSION" value="0.0.0.3"/>
+<attribute name="VOLTAGE_RATING" value="500V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2710,7 +2874,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="OCTOPART_URL" value="https://octopart.com/c0402c225k7pactu-kemet-89187402?r=sp"/>
 </part>
 <part name="R12" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0402" device="" package3d_urn="urn:adsk.eagle:package:19666455/2" value="0.0R"/>
-<part name="P2" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="0734120110" device="" package3d_urn="urn:adsk.eagle:package:19666477/2"/>
 <part name="C19" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0201" device="C0201" package3d_urn="urn:adsk.eagle:package:27626996/2" value="56pF">
 <spice>
 <pinmapping spiceprefix="C">
@@ -2784,6 +2947,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J1" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="MOLEX_INC_0732511150" device="MOLEX_INC_0732511150_0_0" package3d_urn="urn:adsk.eagle:package:27877899/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -14095,7 +14259,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </instance>
 <instance part="D2" gate="G$1" x="152.4" y="102.87" smashed="yes" rot="R90">
 <attribute name="NAME" x="150.114" y="106.045" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="150.114" y="102.489" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C12" gate="G$1" x="160.02" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="156.464" y="96.901" size="1.778" layer="95"/>
@@ -14183,10 +14346,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="243.84" y="81.5086" size="1.778" layer="95"/>
 <attribute name="VALUE" x="243.84" y="76.708" size="1.778" layer="96"/>
 </instance>
-<instance part="P2" gate="G$1" x="142.24" y="125.73" smashed="yes" rot="MR0">
-<attribute name="NAME" x="147.32" y="133.35" size="1.27" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="147.32" y="130.81" size="1.27" layer="96" rot="MR0"/>
-</instance>
 <instance part="C19" gate="G$1" x="21.59" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="23.114" y="104.521" size="1.778" layer="95"/>
 <attribute name="VALUE" x="23.114" y="99.441" size="1.778" layer="96"/>
@@ -14230,8 +14389,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="GND5" gate="1" x="107.95" y="128.27" smashed="yes">
 <attribute name="VALUE" x="105.41" y="125.73" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="139.7" y="109.22" smashed="yes">
-<attribute name="VALUE" x="137.16" y="106.68" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="144.78" y="88.9" smashed="yes">
+<attribute name="VALUE" x="142.24" y="86.36" size="1.778" layer="96"/>
 </instance>
 <instance part="GND7" gate="1" x="152.4" y="88.9" smashed="yes">
 <attribute name="VALUE" x="149.86" y="86.36" size="1.778" layer="96"/>
@@ -14259,6 +14418,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </instance>
 <instance part="GND15" gate="1" x="248.92" y="107.95" smashed="yes">
 <attribute name="VALUE" x="246.38" y="105.41" size="1.778" layer="96"/>
+</instance>
+<instance part="J1" gate="G$0" x="121.92" y="135.89" smashed="yes">
+<attribute name="NAME" x="124.46" y="133.35" size="2.54" layer="95" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -14525,8 +14687,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="179.07" y1="125.73" x2="176.53" y2="125.73" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="125.73" x2="165.1" y2="125.73" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="125.73" x2="152.4" y2="125.73" width="0.1524" layer="91"/>
-<pinref part="P2" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="125.73" x2="152.4" y2="125.73" width="0.1524" layer="91"/>
 <junction x="152.4" y="125.73"/>
 <pinref part="D2" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="107.95" x2="152.4" y2="125.73" width="0.1524" layer="91"/>
@@ -14534,6 +14694,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="176.53" y1="119.38" x2="176.53" y2="125.73" width="0.1524" layer="91"/>
 <junction x="176.53" y="125.73"/>
+<pinref part="J1" gate="G$0" pin="1"/>
+<wire x1="142.24" y1="125.73" x2="152.4" y2="125.73" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -14587,20 +14749,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="107.95" y1="133.35" x2="107.95" y2="130.81" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="139.7" y1="111.76" x2="139.7" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="115.57" x2="139.7" y2="118.11" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="118.11" x2="142.24" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="115.57" x2="139.7" y2="115.57" width="0.1524" layer="91"/>
-<junction x="139.7" y="115.57"/>
-<wire x1="139.7" y1="115.57" x2="133.35" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="133.35" y1="115.57" x2="133.35" y2="123.19" width="0.1524" layer="91"/>
-<pinref part="P2" gate="G$1" pin="2"/>
-<pinref part="P2" gate="G$1" pin="3"/>
-<pinref part="P2" gate="G$1" pin="4"/>
-<wire x1="134.62" y1="123.19" x2="133.35" y2="123.19" width="0.1524" layer="91"/>
-<pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="1"/>
@@ -14658,6 +14806,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="248.92" y1="110.49" x2="248.92" y2="123.19" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="123.19" x2="246.38" y2="123.19" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="J1" gate="G$0" pin="MNT_1"/>
+<wire x1="144.78" y1="91.44" x2="144.78" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="102.87" x2="144.78" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="107.95" x2="144.78" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="113.03" x2="144.78" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="118.11" x2="142.24" y2="118.11" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$0" pin="MNT_2"/>
+<wire x1="142.24" y1="113.03" x2="144.78" y2="113.03" width="0.1524" layer="91"/>
+<junction x="144.78" y="113.03"/>
+<pinref part="J1" gate="G$0" pin="MNT_3"/>
+<wire x1="142.24" y1="107.95" x2="144.78" y2="107.95" width="0.1524" layer="91"/>
+<junction x="144.78" y="107.95"/>
+<pinref part="J1" gate="G$0" pin="MNT_4"/>
+<wire x1="142.24" y1="102.87" x2="144.78" y2="102.87" width="0.1524" layer="91"/>
+<junction x="144.78" y="102.87"/>
 </segment>
 </net>
 </nets>
