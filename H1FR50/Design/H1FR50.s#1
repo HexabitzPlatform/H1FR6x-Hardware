@@ -1854,13 +1854,13 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <vertex x="16.37" y="-1.65"/>
 <vertex x="17.32" y="0"/>
 </polygon>
-<smd name="PAD_PU13" x="8.133" y="-15.8467" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<smd name="PAD_PU13" x="7.752" y="-15.072" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 <polygon width="0.1" layer="1">
 <vertex x="6.76" y="-15" curve="-120"/>
 <vertex x="9.61" y="-13.35"/>
 <vertex x="8.66" y="-15"/>
 </polygon>
-<smd name="PAD_PD13" x="8.0695" y="-14.1068" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
+<smd name="PAD_PD13" x="7.752" y="-15.072" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
 <polygon width="0.1" layer="16">
 <vertex x="6.76" y="-15" curve="-120"/>
 <vertex x="9.61" y="-13.35"/>
@@ -1876,13 +1876,13 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <vertex x="9.61" y="-13.35"/>
 <vertex x="8.66" y="-15"/>
 </polygon>
-<smd name="PAD_PU18" x="-8.133" y="-15.9356" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<smd name="PAD_PU18" x="-7.752" y="-15.072" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 <polygon width="0.1" layer="1">
 <vertex x="-6.76" y="-15" curve="120"/>
 <vertex x="-9.61" y="-13.35"/>
 <vertex x="-8.66" y="-15"/>
 </polygon>
-<smd name="PAD_PD18" x="-8.133" y="-14.0814" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
+<smd name="PAD_PD18" x="-7.752" y="-15.072" dx="1" dy="1" layer="16" roundness="100" cream="no"/>
 <polygon width="0.1" layer="16">
 <vertex x="-6.76" y="-15" curve="120"/>
 <vertex x="-9.61" y="-13.35"/>
@@ -2598,7 +2598,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </package>
 </packages>
 <packages3d>
-<package3d name="MOLEX_INC_0732511150_0" urn="urn:adsk.eagle:package:27877899/2" type="model" library_version="20">
+<package3d name="MOLEX_INC_0732511150_0" urn="urn:adsk.eagle:package:27877899/1" type="box" library_version="19">
 <description>RF/COAXIAL SMA JACK STR 50OHM EDGE MOUNT</description>
 <packageinstances>
 <packageinstance name="MOLEX_INC_0732511150_0"/>
@@ -2637,7 +2637,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MOLEX_INC_0732511150" urn="urn:adsk.eagle:component:27877900/2" prefix="J" library_version="20">
+<deviceset name="MOLEX_INC_0732511150" urn="urn:adsk.eagle:component:27877900/1" prefix="J" library_version="19">
 <description>RF/COAXIAL SMA JACK STR 50OHM EDGE MOUNT</description>
 <gates>
 <gate name="G$0" symbol="MOLEX_INC_0732511150_0_0" x="0" y="0"/>
@@ -2652,7 +2652,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="G$0" pin="MNT_4" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:27877899/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27877899/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2947,7 +2947,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J1" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="MOLEX_INC_0732511150" device="MOLEX_INC_0732511150_0_0" package3d_urn="urn:adsk.eagle:package:27877899/2"/>
+<part name="J1" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="MOLEX_INC_0732511150" device="MOLEX_INC_0732511150_0_0" package3d_urn="urn:adsk.eagle:package:27877899/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -5510,13 +5510,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="P1" gate="G$1" pin="GND1"/>
 <wire x1="43.18" y1="71.12" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="76.2" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="81.28" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="76.2" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="86.36" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="91.44" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="96.52" x2="43.18" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="101.6" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="106.68" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="101.6" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="111.76" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="116.84" x2="39.37" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="GND2"/>
@@ -5542,12 +5540,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="GND24" gate="1" pin="GND"/>
 <wire x1="43.18" y1="62.23" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
 <junction x="43.18" y="71.12"/>
-<pinref part="P1" gate="G$1" pin="GND3"/>
-<wire x1="39.37" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
-<junction x="43.18" y="106.68"/>
-<pinref part="P1" gate="G$1" pin="GND8"/>
-<wire x1="39.37" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
-<junction x="43.18" y="81.28"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
@@ -5914,13 +5906,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="P1" gate="G$1" pin="VDD9"/>
 <wire x1="39.37" y1="132.08" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="P1" gate="G$1" pin="VDD10"/>
-<wire x1="43.18" y1="132.08" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="137.16" x2="43.18" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="132.08" x2="43.18" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="142.24" x2="43.18" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="147.32" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="152.4" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="157.48" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="162.56" x2="43.18" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="157.48" x2="43.18" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="167.64" x2="43.18" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="39.37" y1="127" x2="43.18" y2="127" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="127" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
@@ -5945,12 +5935,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SUPPLY1" gate="G$1" pin="VDD"/>
 <wire x1="43.18" y1="180.34" x2="43.18" y2="172.72" width="0.1524" layer="91"/>
 <junction x="43.18" y="172.72"/>
-<pinref part="P1" gate="G$1" pin="VDD3"/>
-<wire x1="39.37" y1="162.56" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
-<junction x="43.18" y="162.56"/>
-<pinref part="P1" gate="G$1" pin="VDD8"/>
-<wire x1="39.37" y1="137.16" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
-<junction x="43.18" y="137.16"/>
 </segment>
 </net>
 </nets>
@@ -14847,38 +14831,12 @@ In this library the device names are the same as the pin names of the symbols, t
 </sheets>
 <errors>
 <approved hash="104,1,148.59,105.41,U1,VBAT,VDD,,,"/>
-<approved hash="104,1,189.23,92.71,U1,VSSA,GND,,,"/>
 <approved hash="104,1,148.59,92.71,U1,VDDA,VDD,,,"/>
-<approved hash="104,1,189.23,102.87,U1,1_VSS,GND,,,"/>
 <approved hash="104,1,148.59,100.33,U1,1_VDD,VDD,,,"/>
-<approved hash="104,1,189.23,100.33,U1,2_VSS,GND,,,"/>
 <approved hash="104,1,148.59,97.79,U1,2_VDD,VDD,,,"/>
-<approved hash="104,1,189.23,97.79,U1,3_VSS,GND,,,"/>
 <approved hash="104,1,148.59,102.87,U1,VDDIO2,VDD,,,"/>
-<approved hash="104,1,189.23,95.25,U1,4_VSS,GND,,,"/>
 <approved hash="104,1,148.59,95.25,U1,3_VDD,VDD,,,"/>
-<approved hash="104,1,39.37,167.64,P1,VDD2,VDD,,,"/>
-<approved hash="104,1,39.37,162.56,P1,VDD3,VDD,,,"/>
-<approved hash="104,1,39.37,157.48,P1,VDD4,VDD,,,"/>
-<approved hash="104,1,39.37,152.4,P1,VDD5,VDD,,,"/>
-<approved hash="104,1,39.37,147.32,P1,VDD6,VDD,,,"/>
-<approved hash="104,1,39.37,111.76,P1,GND2,GND,,,"/>
-<approved hash="104,1,39.37,106.68,P1,GND3,GND,,,"/>
-<approved hash="104,1,39.37,101.6,P1,GND4,GND,,,"/>
-<approved hash="104,1,39.37,96.52,P1,GND5,GND,,,"/>
-<approved hash="104,1,39.37,91.44,P1,GND6,GND,,,"/>
-<approved hash="104,1,39.37,142.24,P1,VDD7,VDD,,,"/>
-<approved hash="104,1,39.37,137.16,P1,VDD8,VDD,,,"/>
-<approved hash="104,1,39.37,132.08,P1,VDD9,VDD,,,"/>
-<approved hash="104,1,39.37,86.36,P1,GND7,GND,,,"/>
-<approved hash="104,1,39.37,81.28,P1,GND8,GND,,,"/>
-<approved hash="104,1,39.37,76.2,P1,GND9,GND,,,"/>
-<approved hash="104,1,39.37,172.72,P1,VDD1,VDD,,,"/>
-<approved hash="104,1,39.37,127,P1,VDD10,VDD,,,"/>
-<approved hash="104,1,39.37,116.84,P1,GND1,GND,,,"/>
-<approved hash="104,1,39.37,71.12,P1,GND10,GND,,,"/>
 <approved hash="111,1,195.58,140.97,N$6,,,,,"/>
-<approved hash="115,1,193.04,102.87,GND,,,,,"/>
 </errors>
 </schematic>
 </drawing>
