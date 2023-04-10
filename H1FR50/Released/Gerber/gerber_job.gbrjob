@@ -1,24 +1,24 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2021-04-17T15:00:28Z",
+        "CreationDate": "2022-12-15T11:01:42Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
-            "Version": "9.6.2"
+            "Version": "9.6.1"
         },
         "Part": "Single"
     },
     "Overall": {
-        "BoardThickness": 1.6,
-        "LayerNumber": 4,
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
         "Name": {
             "ProjectId": "H1FR50"
         },
-        "Owner": "Anas kaadan <anas.kaadan@outlook.com>",
+        "Owner": "Ibrahim Zaeiter <zeater18@gmail.com>",
         "Size": {
-            "X": 34.64,
-            "Y": 60
+            "X": 60,
+            "Y": 34.64
         }
     }
 }
