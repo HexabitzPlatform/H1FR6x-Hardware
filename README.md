@@ -1,2 +1,2 @@
-# H1FR50-Hardware
-Hexabitz GPS Module Hardware Design
+# H1FR60-Hardware
+Hexabitz TESEO-LIV3F GNSS Module Hardware Design
